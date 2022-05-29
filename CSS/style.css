@@ -1,0 +1,186 @@
+/* CONFIGURAÇOES GERAIS ------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --cor1: #023535;
+  --cor2: #015958;
+  --cor3: #008f8c;
+  --cor4: #0caba8;
+  --cor5: #0fc2c0;
+  --cordark1: #0d0d0d;
+  --cordark2: #201e1e;
+  --fonte1: 'Lobster', cursive;
+  --fonte2: 'Indie Flower', cursive;
+  --shadow: 1px 2px 5px var(--cor2);
+  --shadowdark: 1px 2px 5px black;
+}
+
+body {
+  background-color: white;
+  transition: 400ms background-color;
+}
+
+/* HEADER ------------------------------------------------------*/
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 50px;
+  background-color: var(--cor1);
+  box-shadow: 2px 2px 5px black;
+  transition: 400ms background-color;
+}
+
+body.dark {
+  background-color: var(--cordark2);
+}
+
+body.dark > header{
+  background-color: var(--cordark1);
+  box-shadow: 2px 2px 5px black;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px;
+}
+header li {
+  display: inline-block;
+  padding: 10px;
+}
+
+header a {
+  color: white;
+  transition: 400ms color;
+}
+
+header a:hover {
+  color: var(--cor5);
+}
+
+/* FOOTER --------------------------------------------------------------------------------*/
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 50px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 30px;
+  box-shadow: 2px -2px 5px black;
+  background-color: var(--cor1);
+  transition: 400ms background-color;
+}
+
+body.dark > footer {
+  background-color: var(--cordark1);
+}
+
+footer p {
+  color: white;
+  font-family: var(--fonte2);
+  font-size: 1.4em;
+}
+
+footer a {
+  color: white;
+  font-weight: b;
+  transition: 400ms color;
+}
+
+footer a:hover {
+  color: var(--cor5);
+}
+
+/* BUTTON --------------------------------------------------------------------------------*/
+.button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* MEDIA QUERY ------------------------------------------------------------------------- */
+
+@media (max-width: 510px){
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 300px){
+  header a {
+      font-size: 0.8em;
+  }
+}
