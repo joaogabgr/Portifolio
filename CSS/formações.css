@@ -1,7 +1,9 @@
 #titulo {
     text-align: center;
     transition: 400ms color;
-    padding: 50px;
+    margin-bottom: 50px;
+    font-family: var(--fonte1);
+    letter-spacing: 1px;
 }
 
 body.dark #titulo {
