@@ -3,28 +3,25 @@ if (document.title == "Projetos") {
     const bannerprojeto = document.querySelector("#banners");
     const projetos = new Array();
 
+    // ID - SRC - NOME - GITHUB - INTERNET - DESCRIÇÂO
+
     projetos.push(["estudio", "../Imagens/Projetos/Estudiogrossi.png", "Estudio Grossi", "https://github.com/joaogabgr/StudioSG", "https://joaogabgr.github.io/StudioSG/", "Projeto criado para fins de divulgação da marca <strong>Estudio Grossi</strong>, sem objetivo de lucros financeiros"]);
 
 
     for (let i = 0; i < projetos.length; i++) {
         // CRIAR CARD ----------------------------------------------------------------------
-        const cardabbr = document.createElement('abbr');
-        cardabbr.setAttribute("title", "Clique para abrir mais informações do projeto");
 
         const carddiv = document.createElement("div");
         carddiv.setAttribute("id", projetos[i][0]);
         carddiv.setAttribute("class", "projeto-card");
         carddiv.setAttribute("onclick", "mostrarbanner(this.id)")
 
-        const cardimg = document.createElement("img");
-        cardimg.setAttribute("src", projetos[i][1]);
+        carddiv.innerHTML = `
+        <abbr title="Clique para abrir mais informações do projeto">
+            <img src="${projetos[i][1]}" alt="Logo do projeto">
+            <h2>${projetos[i][2]}</h2>
+        </abbr>`
 
-        const cardnome = document.createElement('h2')
-        cardnome.innerText = projetos[i][2];
-
-        cardabbr.appendChild(cardimg);
-        cardabbr.appendChild(cardnome)
-        carddiv.appendChild(cardabbr);
         cardprojeto.appendChild(carddiv);
 
         // CRIAR BANNER ---------------------------------------------------------------------
@@ -32,92 +29,54 @@ if (document.title == "Projetos") {
         const bannerdiv = document.createElement("div");
         bannerdiv.setAttribute("id", projetos[i][0]);
         bannerdiv.setAttribute("class", "projeto-banner");
-
-        const closediv = document.createElement("div");
-        closediv.setAttribute("onclick", "fecharbanner(this.id)");
-        closediv.setAttribute("id", projetos[i][0]);
-        closediv.setAttribute("class", "buttonclose");
-
-        const closeimg = document.createElement("img");
-        closeimg.setAttribute("class", "banner-close");
-        closeimg.setAttribute("src", "../Imagens/icones/cancel.png");
-        closeimg.setAttribute("alt", "Imagem do projeto");
-
-        const bannerimgdiv = document.createElement("div");
-        bannerimgdiv.setAttribute("class", "banner-imagem-template");
-
-        const bannerimg = document.createElement("img");
-        bannerimg.setAttribute("src", projetos[i][1]);
-        bannerimg.setAttribute("class", "banner-imagem");
-
-        const bannertextdiv = document.createElement("div");
-        bannertextdiv.setAttribute("class", "banner-text");
-
-        const abbrgit = document.createElement("abbr");
-        abbrgit.setAttribute("title", "Clique para abrir o projeto no GitHub");
-
-        const linkgit = document.createElement("a");
-        linkgit.setAttribute("href", projetos[i][3]);
-        linkgit.setAttribute("target", "_blank");
-        linkgit.innerText = "GitHub";
-
-        const abbrnet = document.createElement("abbr");
-        abbrnet.setAttribute("title", "Clique para abrir o projeto na internet");
-
-        const linkinternet = document.createElement("a");
-        linkinternet.setAttribute("href", projetos[i][4]);
-        linkinternet.setAttribute("target", "_blank");
-        linkinternet.innerText = "Internet";
-
-        const bannertext = document.createElement("p");
-        bannertext.innerHTML = projetos[i][5];
-
-        const bannernome = document.createElement('h2')
-        bannernome.innerText = projetos[i][2];
+        bannerdiv.innerHTML = `
+        <div onclick="fecharbanner(this.id)" id="${projetos[i][0]}" class="buttonclose">
+            <img class="banner-close" src="../Imagens/icones/cancel.png" alt="Botão de fechar">
+        </div>
+        <div class="banner-imagem-template">
+            <img src="${projetos[i][1]}" alt="Logo do projeto" class="banner-imagem">
+        </div>
+        <div class="banner-text">
+            <h2>${projetos[i][2]}</h2>
+            <abbr title="Clique para abrir o projeto no GitHub">
+                <a href="${projetos[i][3]}" target="_blank">GitHub</a>
+            </abbr>
+            <abbr title="Clique para abrir o projeto na internet">
+                <a href="${projetos[i][4]}" target="_blank">Internet</a>
+            </abbr>
+            <p>${projetos[i][5]}</p>
+        </div>`
 
 
-
-        closediv.appendChild(closeimg);
-        bannerdiv.appendChild(closediv);
-        bannerimgdiv.appendChild(bannerimg);
-        bannerdiv.appendChild(bannerimgdiv);
-
-        bannertextdiv.appendChild(bannernome);
-
-        abbrgit.appendChild(linkgit);
-        bannertextdiv.appendChild(abbrgit);
-
-        abbrnet.appendChild(linkinternet);
-        bannertextdiv.appendChild(abbrnet);
-
-        bannertextdiv.appendChild(bannertext)
-
-        bannerdiv.appendChild(bannertextdiv);
         bannerprojeto.appendChild(bannerdiv);
     }
 } else if(document.title == "Formações") {
     const formacoes = [["INICIANTE EM PROGRAMAÇÃO", "https://cursos.alura.com.br/degree/certificate/82f520f3-6ac1-4d7d-b6ae-ffa2134fa327"]];
-    const cursos = [["ARQUITETURA DE COMPUTADORES", "https://cursos.alura.com.br/certificate/ba989ba0-d7e3-4f28-98f8-0f08e499eb09"],["GIT E GITHUB","https://cursos.alura.com.br/certificate/820cb12f-e100-4696-aef6-788599012aa0"],["HTML5 E CSS3 PARTE 1","https://cursos.alura.com.br/certificate/d558cc75-5535-428f-98ad-53529533ae1b"],["HTML5 E CSS3 PARTE 2","https://cursos.alura.com.br/certificate/210dc779-01fb-421a-9c5e-f14a02b2c766"],["HTML5 E CSS3 PARTE 3","https://cursos.alura.com.br/certificate/377de2b8-2c4a-418b-b558-5da6bd4ee455"],["HTML5 E CSS3 PARTE 4","https://cursos.alura.com.br/certificate/da8796ee-96da-40d8-ac2a-d4ad782a6270"],["JAVASCRIPT PARA WEB: CRIE PÁGINAS DINÂMICAS", "https://cursos.alura.com.br/certificate/ba05b195-949d-4262-9f07-6a92f428640b"],["JAVASCRIPT: EXPLORANDO A LINGUAGEM","https://cursos.alura.com.br/certificate/e06e2af6-6eca-4ece-b3bd-ec1e86cb345c"],["LINUX I: CONHECENDO O TERMINAL","https://cursos.alura.com.br/certificate/79c328c0-22bd-4cda-9512-ecb686af987e"]];
+
+    const cursos = [["ARQUITETURA DE COMPUTADORES", "https://cursos.alura.com.br/certificate/ba989ba0-d7e3-4f28-98f8-0f08e499eb09"],
+
+    ["GIT E GITHUB","https://cursos.alura.com.br/certificate/820cb12f-e100-4696-aef6-788599012aa0"],
+
+    ["HTML5 E CSS3 PARTE 1","https://cursos.alura.com.br/certificate/d558cc75-5535-428f-98ad-53529533ae1b"],
+
+    ["HTML5 E CSS3 PARTE 2","https://cursos.alura.com.br/certificate/210dc779-01fb-421a-9c5e-f14a02b2c766"],
+
+    ["HTML5 E CSS3 PARTE 3","https://cursos.alura.com.br/certificate/377de2b8-2c4a-418b-b558-5da6bd4ee455"],
+
+    ["HTML5 E CSS3 PARTE 4","https://cursos.alura.com.br/certificate/da8796ee-96da-40d8-ac2a-d4ad782a6270"],
+
+    ["JAVASCRIPT PARA WEB: CRIE PÁGINAS DINÂMICAS", "https://cursos.alura.com.br/certificate/ba05b195-949d-4262-9f07-6a92f428640b"],
+
+    ["JAVASCRIPT: EXPLORANDO A LINGUAGEM","https://cursos.alura.com.br/certificate/e06e2af6-6eca-4ece-b3bd-ec1e86cb345c"],
+
+    ["LINUX I: CONHECENDO O TERMINAL","https://cursos.alura.com.br/certificate/79c328c0-22bd-4cda-9512-ecb686af987e"]];
 
     const spanFormacoes = document.querySelector(".formacao");
 
     for(let i = 0; i < formacoes.length;i++) {
         const pform = document.createElement("p");
-        pform.innerText = formacoes[i][0];
+        pform.innerHTML = `${formacoes[i][0]}<abbr title="Clique para abrir o certificado"><a href="${formacoes[i][1]}" target="_blank"><i class="fa-solid fa-file-circle-check fa-xl"></i></a></abbr>`;
 
-        const abbrform = document.createElement("abbr");
-        abbrform.setAttribute("title", "Clique para abrir o certificado");
-
-        const linkform = document.createElement("a");
-        linkform.setAttribute("href", formacoes[i][1]);
-        linkform.setAttribute("target", "_blank");
-
-        const iform = document.createElement("i");
-        iform.setAttribute("class", "fa-solid fa-file-circle-check fa-xl");
-
-        linkform.appendChild(iform)
-        abbrform.appendChild(linkform)
-        pform.appendChild(abbrform)
         spanFormacoes.appendChild(pform);
     }
 
@@ -125,21 +84,8 @@ if (document.title == "Projetos") {
 
     for(let i = 0; i < cursos.length;i++) {
         const pform = document.createElement("p");
-        pform.innerText = cursos[i][0];
+        pform.innerHTML = `${cursos[i][0]}<abbr title="Clique para abrir o certificado"><a href="${cursos[i][1]}" target="_blank"><i class="fa-solid fa-file-circle-check fa-xl"></i></a></abbr>`;
 
-        const abbrform = document.createElement("abbr");
-        abbrform.setAttribute("title", "Clique para abrir o certificado");
-
-        const linkform = document.createElement("a");
-        linkform.setAttribute("href", cursos[i][1]);
-        linkform.setAttribute("target", "_blank");
-
-        const iform = document.createElement("i");
-        iform.setAttribute("class", "fa-solid fa-file-circle-check fa-xl");
-
-        linkform.appendChild(iform)
-        abbrform.appendChild(linkform)
-        pform.appendChild(abbrform)
         spanCursos.appendChild(pform);
     }
 }
