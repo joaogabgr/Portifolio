@@ -46,11 +46,11 @@ body.dark .content {
 
 .content p::before {
     content: "●";
-    padding: 10px;
+    padding: 5px;
 }
 
 .content a {
-    padding: 15px;
+    padding: 5px;
 }
 
 .content i {
