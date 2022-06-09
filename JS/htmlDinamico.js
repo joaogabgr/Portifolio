@@ -69,6 +69,8 @@ if (document.title == "Projetos") {
 
     ["JAVASCRIPT: EXPLORANDO A LINGUAGEM","https://cursos.alura.com.br/certificate/e06e2af6-6eca-4ece-b3bd-ec1e86cb345c"],
 
+    ["JAVASCRIPT: ORIENTAÇÃO A OBJETOS","https://cursos.alura.com.br/certificate/2807ed85-7061-4a40-874a-9963e85dfcf8"],
+
     ["LINUX I: CONHECENDO O TERMINAL","https://cursos.alura.com.br/certificate/79c328c0-22bd-4cda-9512-ecb686af987e"]];
 
     const spanFormacoes = document.querySelector(".formacao");
