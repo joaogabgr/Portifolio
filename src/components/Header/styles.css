@@ -1,0 +1,43 @@
+header {
+    padding: var(--padding);
+    border-bottom: 2px solid var(--borderColor);
+}
+
+header div.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+header .img {
+    position: relative;
+    width: 400px;
+}
+
+header img {
+    display: block;
+    margin: auto;
+}
+
+header .img::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 250px;
+    background-color: var(--secuntaryBgColor);
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index: -1;
+    filter: drop-shadow(0px 0px 15px var(--secuntaryBgColor));
+}

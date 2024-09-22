@@ -1,0 +1,92 @@
+{
+  "projects": [
+    {
+      "name": "FAPG Transparency Portal",
+      "description": "Website and API developed for the FAPG Foundation, focusing on public transparency of projects and research initiatives. Users can create, edit, and manage projects, providing a clear overview of foundation activities.",
+      "link": "https://github.com/joaogabgr/API-2024.2-3SEM",
+      "languages": {
+        "backend": ["Spring Boot", "Java", "Python"],
+        "frontend": ["React", "TypeScript", "HTML", "CSS"],
+        "database": ["MySQL"]
+      },
+      "type": "College"
+    },
+    {
+      "name": "Service Desk",
+      "description": "A system for students to report issues and request assistance, making it easier for faculty and staff to track and resolve problems. Provides a streamlined communication process for problem reporting and feedback.",
+      "link": "https://github.com/joaogabgr/API-DESK",
+      "languages": {
+        "backend": ["TypeScript", "Node.js"],
+        "frontend": ["React", "TypeScript", "HTML", "CSS"],
+        "database": ["MySQL"]
+      },
+      "type": "College"
+    },
+    {
+      "name": "API of CRUD NoSQL",
+      "description": "An API inspired by the Mercado Livre database architecture, designed for inserting, updating, and managing data while maintaining ACID properties in a NoSQL environment.",
+      "link": "https://github.com/joaogabgr/AtvNoSQL",
+      "languages": {
+        "backend": ["TypeScript"],
+        "frontend": [],
+        "database": ["MongoDB"]
+      },
+      "type": "College"
+    },
+    {
+      "name": "API for JWT Authentication",
+      "description": "A secure authentication API using JWT for user authentication and authorization, ensuring robust access control for sensitive information.",
+      "link": "https://github.com/joaogabgr/AuthApiJWT-JAVA",
+      "languages": {
+        "backend": ["Spring Boot", "Java"],
+        "frontend": [],
+        "database": ["MySQL"]
+      },
+      "type": "Personal"
+    },
+    {
+      "name": "Library System",
+      "description": "API for managing a library system, enabling users to create new books, manage loans, and handle return dates. Facilitates efficient tracking of book borrowings and returns.",
+      "link": "https://github.com/joaogabgr/librarySystem",
+      "languages": {
+        "backend": ["Spring Boot", "Java"],
+        "frontend": [],
+        "database": ["MySQL"]
+      },
+      "type": "Personal"
+    },
+    {
+      "name": "PC Media Controller",
+      "description": "An application designed to control media playback on a computer. It allows users to adjust volume, play/pause, and navigate through videos using keyboard shortcuts.",
+      "link": "https://github.com/joaogabgr/ControlePC",
+      "languages": {
+        "backend": ["TypeScript", "Node.js", "PowerShell", "Python"],
+        "frontend": ["React", "TypeScript", "HTML", "CSS"],
+        "database": []
+      },
+      "type": "Personal"
+    },
+    {
+      "name": "JWT Authentication Application",
+      "description": "A web application providing user authentication through JWT, enabling secure login and access management across different user roles.",
+      "link": "https://github.com/joaogabgr/authApi",
+      "languages": {
+        "backend": ["TypeScript", "Node.js"],
+        "frontend": ["React", "TypeScript", "HTML", "CSS", "JavaScript"],
+        "database": ["MySQL"]
+      },
+      "type": "Personal"
+    },
+    {
+      "name": "OrbitChat",
+      "description": "A social media platform inspired by Twitter, where users can create posts, follow other users, like posts, and repost content, offering a dynamic and interactive user experience.",
+      "link": "https://github.com/joaogabgr/OrbitChat",
+      "languages": {
+        "backend": ["Python", "Flask"],
+        "frontend": ["HTML", "CSS", "JavaScript"],
+        "database": ["MySQL"]
+      },
+      "type": "Personal"
+    }
+  ]
+}
