@@ -21,6 +21,11 @@ section#projects .project {
     width: var(--maxWidthProject);
 }
 
+section#projects .project p {
+    display: flex;
+    align-items: center;
+}
+
 section#projects .project:nth-child(odd) {
     align-self: flex-end;
     text-align: right;
@@ -29,6 +34,22 @@ section#projects .project:nth-child(odd) {
 
 section#projects .project:nth-child(odd) p {
     text-align: right;
+    justify-content: flex-end;
+}
+
+section#projects .project p svg {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 2.3rem;
+}
+
+section#projects .project:nth-child(odd) p svg:first-child {
+    margin-left: 10px;
+}
+
+section#projects .project:nth-child(odd) p svg {
+    margin: 0;
+    margin-right: 10px;
 }
 
 
