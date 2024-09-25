@@ -3,7 +3,7 @@ export default function Header() {
   return (
     <header>
         <div className="section">
-            <div>
+            <div className="welcome">
                 <h1>Welcome to my portfolio!</h1>
                 <p>My name is João Gabriel, I am 20 years old, and I am a Software Development student at Fatec in São José dos Campos, Brazil. I am currently in my 3rd semester.</p>
             </div>

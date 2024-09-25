@@ -3,10 +3,14 @@ section#projects {
     flex-direction: column;
 }
 
+:root {
+    --maxWidthProject: var(--maxWidthP);
+}
+
 section#projects .project {
     margin-bottom: 150px;
-    border: 2px solid var(--borderColor);
-    border-top: 0;
+    border: var(--border);
+    border-image: var(--borderGradient);
     border-radius: var(--border-radios);
     padding: 20px;
     display: flex;
@@ -14,7 +18,7 @@ section#projects .project {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    width: var(--maxWidthP);
+    width: var(--maxWidthProject);
 }
 
 section#projects .project:nth-child(odd) {
@@ -28,18 +32,47 @@ section#projects .project:nth-child(odd) p {
 }
 
 
-section#projects .project h2 {
+section#projects .project h3 {
     color: var(--fontColor);
     margin-bottom: 1rem;
-    width: var(--maxWidthP);
+    font-size: 1.5rem;
+    text-transform: uppercase;
 }
 
 section#projects .project a {
     color: var(--fontColor);
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.28rem;
+}
+
+section#projects .project a svg {
+    font-size: 1.25rem;
+    margin: 0;
+    margin-left: 5px;
+}
+
+section#projects .project a:hover svg {
+    background-color: transparent;
 }
 
 section#projects .project a:hover {
     scale: 1.1;
+}
+
+@media (max-width: 1000px) {
+    :root {
+        --maxWidthProject: calc(100% - 30 * 2)
+    }
+
+    section#projects .project:nth-child(odd) {
+        align-items: center;
+    }
+
+    section#projects .project:nth-child(odd) p {
+        text-align: center;
+    }
+
+    section#projects .project {
+        align-items: center;
+    }
 }

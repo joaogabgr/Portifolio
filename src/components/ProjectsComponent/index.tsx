@@ -1,5 +1,7 @@
 import projectsData from './projects.json';
 import './styles.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 export default function ProjectsComponent() {
     type Project = {
@@ -18,10 +20,10 @@ export default function ProjectsComponent() {
 
     return (
         <section id='projects'>
-            <h1>Projects</h1>
+            <h2>Projects</h2>
             {projects.map((project, index) => (
                 <div key={index} className="project">
-                    <h2>{project.name}</h2>
+                    <h3>{project.name}</h3>
                     <p>{project.description}</p>
                     <p><strong>Backend:</strong> {project.languages.backend.join(', ')}</p>
                     {project.languages.frontend.length > 0 && (
@@ -31,7 +33,7 @@ export default function ProjectsComponent() {
                         <p><strong>Database:</strong> {project.languages.database.join(', ')}</p>
                     )}
                     <p><strong>Type:</strong> {project.type}</p>
-                    <a target='_blank' rel="noopener noreferrer" href={project.link}>View Project</a>
+                    <a target='_blank' rel="noopener noreferrer" href={project.link}>View Project <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
                 </div>
             ))}
         </section>

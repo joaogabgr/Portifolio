@@ -1,6 +1,8 @@
 header {
     padding: var(--padding);
-    border-bottom: 2px solid var(--borderColor);
+    border-bottom: var(--border);
+    border-image: var(--borderGradient);
+    border-radius: var(--border-radios);
 }
 
 header div.section {
@@ -15,14 +17,18 @@ header nav {
     gap: 20px;
 }
 
+header nav a {
+    font-size: 1.2rem;
+    color: var(--secuntaryFontColor);
+}
+
 header .img {
     position: relative;
-    width: 400px;
 }
 
 header img {
     display: block;
-    margin: auto;
+    margin-right: calc(var(--padding) * 2);
 }
 
 header .img::before {
@@ -40,4 +46,64 @@ header .img::before {
     border-bottom-right-radius: 0;
     z-index: -1;
     filter: drop-shadow(0px 0px 15px var(--secuntaryBgColor));
+}
+
+header div.welcome {
+    width: var(--maxWidthP);
+}
+
+header div.welcome p {
+    width: 100%;
+}
+
+@media (max-width: 1400px) {
+    header div.welcome p {
+        width: var(--maxWidthP);
+    }
+}
+
+@media (max-width: 1000px) {
+    header div.section {
+        flex-wrap: wrap-reverse;
+        align-items: center;
+    }
+    h1, h2, h3 {
+        text-align: center;
+        width: 100%;
+    }
+
+    header .img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    header img {
+        margin-right: 0;
+    }
+
+    header .welcome {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header div p {
+        width: var(--maxWidthP);
+    }
+
+    header nav {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    header .img::before {
+        width: 300px;
+        height: 200px;
+    }
 }
