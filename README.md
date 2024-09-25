@@ -1,46 +1,28 @@
-# Getting Started with Create React App
+# João Gabriel's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About Me
 
-## Available Scripts
+I am a passionate software developer focusing my studies on **Spring** and **Java**, while also having knowledge of other programming languages and frameworks such as **Python**, **TypeScript**, and **React**. My primary focus is on **back-end development**, although I also possess experience in front-end technologies.
 
-In the project directory, you can run:
+### Academic Experience
 
-### `npm start`
+Throughout my academic journey, I have participated in several team projects using the **SCRUM** methodology, which has provided me with valuable experience in collaborative work:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Nephrology Project**: In my first semester, I worked on a project where we developed a website using **Flask (Python)** to provide useful information for mothers.
+- **Service Desk Project**: During my second semester, I contributed to creating a service desk website and API, developed with **Node.js (TypeScript)** and **React**, allowing students to report issues related to the college.
+- **FAPG Foundation Project**: Currently, in my third semester, I am working on a project for the **FAPG Foundation** - Foundation for the Support of Graduate Research, focusing on creating a transparency portal.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Personal Projects
 
-### `npm test`
+In addition to my academic experiences, I am also engaged in ongoing personal projects that reflect my interest in deepening my knowledge and practical skills in software development:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Authentication API**: An authentication API built with **Spring** and **TypeScript (Node.js)** using **JWT**.
+- **Library System API**: An API for a library system that also utilizes **Spring**.
 
-### `npm run build`
+## Contact Me
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Feel free to connect with me through my [portfolio](https://portifolioa-eight.vercel.app/) or reach out via email at [joaoggbs62@gmail.com](mailto:joaoggbs62@gmail.com).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Thank you for visiting my portfolio!
