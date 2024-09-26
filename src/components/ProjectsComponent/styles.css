@@ -91,6 +91,12 @@ section#projects .project a:hover {
 
     section#projects .project:nth-child(odd) p {
         text-align: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    section#projects .project p {
+        flex-wrap: wrap;
     }
 
     section#projects .project {
