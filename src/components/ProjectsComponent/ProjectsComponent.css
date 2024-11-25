@@ -1,6 +1,7 @@
 section#projects {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 :root {
@@ -15,43 +16,38 @@ section#projects .project {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
+    align-items: center;
     width: var(--maxWidthProject);
 }
 
 section#projects .project p {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-section#projects .project:nth-child(odd) {
-    align-self: flex-end;
-    text-align: right;
-    align-items: flex-end;
+section#projects .project p strong {
+    font-size: 1.25rem;
+    margin-top: 10px;
 }
 
-section#projects .project:nth-child(odd) p {
-    text-align: right;
-    justify-content: flex-end;
+section#projects .project p span {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+}
+
+section#projects .project p span.subTitle {
+    margin-bottom: -12px;
 }
 
 section#projects .project p svg {
     margin: 0;
-    margin-left: 10px;
+    margin-right: 10px;
     font-size: 2.3rem;
 }
-
-section#projects .project:nth-child(odd) p svg:first-child {
-    margin-left: 10px;
-}
-
-section#projects .project:nth-child(odd) p svg {
-    margin: 0;
-    margin-right: 10px;
-}
-
 
 section#projects .project h3 {
     color: var(--fontColor);
@@ -83,16 +79,6 @@ section#projects .project a:hover {
 @media (max-width: 1000px) {
     :root {
         --maxWidthProject: calc(100% - 30 * 2)
-    }
-
-    section#projects .project:nth-child(odd) {
-        align-items: center;
-    }
-
-    section#projects .project:nth-child(odd) p {
-        text-align: center;
-        justify-content: flex-start;
-        flex-wrap: wrap;
     }
 
     section#projects .project p {

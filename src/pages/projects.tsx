@@ -1,5 +1,5 @@
-import Header from "../components/Header";
-import ProjectsComponent from "../components/ProjectsComponent";
+import Header from "../components/Header/Header";
+import ProjectsComponent from "../components/ProjectsComponent/ProjectsComponent";
 
 export default function Projects() {
     return (

@@ -1,92 +1,137 @@
 {
   "projects": [
     {
+      "semester": "Third Semester (2024-2)",
       "name": "FAPG Transparency Portal",
-      "description": "Website and API developed for the FAPG Foundation, focusing on public transparency of projects and research initiatives. Users can create, edit, and manage projects, providing a clear overview of foundation activities.",
-      "link": "https://github.com/joaogabgr/API-2024.2-3SEM",
-      "languages": {
-        "backend": ["Spring Boot", "Java", "Python"],
-        "frontend": ["React", "TypeScript", "HTML", "CSS"],
-        "database": ["MySQL"]
+      "partner": "Fatec - Prof. Gerson Da Penha Neto",
+      "problem": "The need for a system that facilitates the public transparency of projects and research conducted by the foundation.",
+      "solution": "We developed a portal and API that allow the creation, editing, and management of projects, providing a clear view of the foundation's initiatives.",
+      "repository": "https://github.com/joaogabgr/API-2024.2-3SEM",
+      "technologies": {
+        "Spring Boot": "Backend Development",
+        "Java": "Backend Logic",
+        "Python": "Data Processing",
+        "React": "Frontend Development",
+        "TypeScript": "Frontend Scripting",
+        "HTML": "Web Structure",
+        "CSS": "Web Styling",
+        "MySQL": "Database Management"
       },
-      "type": "College"
+      "personal_contributions": "In this project, I worked as a developer and was responsible for implementing the integration between the backend and frontend.",
+      "hard_skills": {
+        "Spring Boot": "I do with help",
+        "React": "I do independently",
+        "MySQL": "I do independently"
+      },
+      "soft_skills": {
+        "Collaboration": "During Sprint Planning meetings, I used my communication skills to correctly prioritize tasks."
+      }
     },
     {
+      "semester": "Second Semester (2023-2)",
       "name": "Service Desk",
-      "description": "A system for students to report issues and request assistance, making it easier for faculty and staff to track and resolve problems. Provides a streamlined communication process for problem reporting and feedback.",
-      "link": "https://github.com/joaogabgr/API-DESK",
-      "languages": {
-        "backend": ["TypeScript", "Node.js"],
-        "frontend": ["React", "TypeScript", "HTML", "CSS"],
-        "database": ["MySQL"]
+      "partner": "Fatec - Prof. Claudio Etelvino de Lima",
+      "problem": "The lack of a unified system to register problems and assistance requests, hindering communication between students and staff.",
+      "solution": "We created a system that allows the registration, tracking, and resolution of requests, improving communication and speeding up problem resolution.",
+      "repository": "https://github.com/joaogabgr/API-DESK",
+      "technologies": {
+        "TypeScript": "Backend Development",
+        "Node.js": "Backend Server",
+        "React": "Frontend Development",
+        "HTML": "Web Structure",
+        "CSS": "Web Styling",
+        "MySQL": "Database Management"
       },
-      "type": "College"
+      "personal_contributions": "As a developer, I implemented the functionality for automatic assignment of tickets based on the responsible area, using Node.js.",
+      "hard_skills": {
+        "Node.js": "I do independently",
+        "TypeScript": "I do independently",
+        "MySQL": "I do independently",
+        "React": "I do independently"
+      },
+      "soft_skills": {
+        "Resilience": "I faced technical challenges to fix critical bugs before the final delivery."
+      },
+      "category": "Academic Project"
     },
     {
-      "name": "API of CRUD NoSQL",
-      "description": "An API inspired by the Mercado Livre database architecture, designed for inserting, updating, and managing data while maintaining ACID properties in a NoSQL environment.",
-      "link": "https://github.com/joaogabgr/AtvNoSQL",
-      "languages": {
-        "backend": ["TypeScript"],
-        "frontend": [],
-        "database": ["MongoDB"]
+      "semester": "Third Semester (2024-2)",
+      "name": "CRUD NoSQL in Different Databases",
+      "partner": "Fatec - Prof. Diogo Branquinho",
+      "problem": "The need to explore NoSQL database architecture for a system that supports CRUD operations with high consistency.",
+      "solution": "We developed an API that simulates the operation of an e-commerce system, using different NoSQL technologies to manage product and user data.",
+      "repository": "https://github.com/joaogabgr/AtvNoSQL",
+      "technologies": {
+        "TypeScript": "Data Processing",
+        "Python": "Data Processing",
+        "MongoDB": "Document-Based Database",
+        "Neo4j": "Graph-Based Database",
+        "Redis": "In-Memory Key-Value Store",
+        "Cassandra": "Column-Based Database"
       },
-      "type": "College"
+      "personal_contributions": "I implemented connections with different NoSQL databases. I modeled data in MongoDB to support ACID operations and implemented relationship functionality between products and categories in Neo4j. I configured Redis for caching and Cassandra for high scalability in data storage.",
+      "hard_skills": {
+        "TypeScript": "I do independently",
+        "Python": "I do independently",
+        "MongoDB": "I do with help",
+        "Neo4j": "I do with help",
+        "Redis": "I do with help",
+        "Cassandra": "I do with help"
+      },
+      "soft_skills": {
+        "Critical Thinking": "I identified and resolved consistency issues in write operations in MongoDB and Neo4j.",
+        "Adaptability": "I learned to integrate various NoSQL technologies and configure databases like Redis and Cassandra in a short time.",
+        "Collaboration": "I shared insights with the team to optimize the combined use of different NoSQL databases, creating a more efficient architecture."
+      },
+      "category": "Academic Project"
     },
     {
       "name": "API for JWT Authentication",
-      "description": "A secure authentication API using JWT for user authentication and authorization, ensuring robust access control for sensitive information.",
-      "link": "https://github.com/joaogabgr/AuthApiJWT-JAVA",
-      "languages": {
-        "backend": ["Spring Boot", "Java"],
-        "frontend": [],
-        "database": ["MySQL"]
+      "description": "A secure authentication API using JWT for user authentication and authorization, ensuring robust access control to sensitive information.",
+      "repository": "https://github.com/joaogabgr/AuthApiJWT-JAVA",
+      "technologies": {
+        "Spring Boot": "Backend Development",
+        "Java": "Backend Logic",
+        "MySQL": "Database Management"
       },
-      "type": "Personal"
-    },
-    {
-      "name": "Library System",
-      "description": "API for managing a library system, enabling users to create new books, manage loans, and handle return dates. Facilitates efficient tracking of book borrowings and returns.",
-      "link": "https://github.com/joaogabgr/librarySystem",
-      "languages": {
-        "backend": ["Spring Boot", "Java"],
-        "frontend": [],
-        "database": ["MySQL"]
+      "hard_skills": {
+        "Authentication Systems": "I do independently",
+        "Spring Boot": "I do with help",
+        "Security Protocols": "I do with help",
+        "JWT Implementation": "I do with help"
       },
-      "type": "Personal"
-    },
-    {
-      "name": "PC Media Controller",
-      "description": "An application designed to control media playback on a computer. It allows users to adjust volume, play/pause, and navigate through videos using keyboard shortcuts.",
-      "link": "https://github.com/joaogabgr/ControlePC",
-      "languages": {
-        "backend": ["TypeScript", "Node.js", "PowerShell", "Python"],
-        "frontend": ["React", "TypeScript", "HTML", "CSS"],
-        "database": []
+      "soft_skills": {
+        "Analytical Thinking": "Analyzing security problems, I made decisions that ensured the efficient use of JWT.",
+        "Problem Solving": "I solved problems related to access control and authentication security.",
+        "Focus on Security": "I always prioritized security in the implementation of JWT-based authentication."
       },
-      "type": "Personal"
-    },
-    {
-      "name": "JWT Authentication Application",
-      "description": "A web application providing user authentication through JWT, enabling secure login and access management across different user roles.",
-      "link": "https://github.com/joaogabgr/authApi",
-      "languages": {
-        "backend": ["TypeScript", "Node.js"],
-        "frontend": ["React", "TypeScript", "HTML", "CSS", "JavaScript"],
-        "database": ["MySQL"]
-      },
-      "type": "Personal"
+      "category": "Personal Project"
     },
     {
       "name": "OrbitChat",
       "description": "A social media platform inspired by Twitter, where users can create posts, follow other users, like posts, and repost content, offering a dynamic and interactive user experience.",
-      "link": "https://github.com/joaogabgr/OrbitChat",
-      "languages": {
-        "backend": ["Python", "Flask"],
-        "frontend": ["HTML", "CSS", "JavaScript"],
-        "database": ["MySQL"]
+      "repository": "https://github.com/joaogabgr/OrbitChat",
+      "technologies": {
+        "Python": "Backend Development",
+        "Flask": "Backend Framework",
+        "HTML": "Web Structure",
+        "CSS": "Web Styling",
+        "JavaScript": "Frontend Scripting",
+        "MySQL": "Database Management"
       },
-      "type": "Personal"
+      "personal_contributions": "I developed the post creation system, follow and like functionalities, and implemented the backend with Flask to manage user interactions.",
+      "hard_skills": {
+        "Flask Framework": "I do independently",
+        "Frontend Development": "I do independently",
+        "Database Design": "I do independently",
+        "Social Media Systems": "I do with help"
+      },
+      "soft_skills": {
+        "Creativity": "I created innovative features to enhance the user experience on the platform.",
+        "User Experience Design": "I focused on creating an intuitive and interactive interface.",
+        "Problem Solving": "I solved technical challenges in implementing dynamic user interactions."
+      },
+      "category": "Personal Project"
     }
   ]
 }

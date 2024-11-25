@@ -1,0 +1,20 @@
+#Studies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#Studies .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#Studies .content p {
+    text-align: center;
+    margin-bottom: 20px;
+}
