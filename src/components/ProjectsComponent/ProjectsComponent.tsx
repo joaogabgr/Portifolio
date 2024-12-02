@@ -53,10 +53,10 @@ export default function ProjectsComponent() {
                 <p>
                   <strong>Technologies:</strong>
                 </p>
-                <p>
+                <p className="techMain">
                   {Object.keys(project.technologies).map((tech, i) => (
                     <span key={i} title={tech}>
-                      {getIcon(tech)} {project.technologies[tech]}
+                      {getIcon(tech)}
                     </span>
                   ))}
                 </p>
@@ -113,7 +113,7 @@ export default function ProjectsComponent() {
           {project.category && (
             <>
               <p>
-                <strong>Category:</strong> {project.category}
+                <strong>{project.category}</strong>
               </p>
             </>
           )}
