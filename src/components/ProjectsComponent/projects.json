@@ -1,13 +1,14 @@
 {
-  "projects": [
+  "projetos": [
     {
-      "semester": "Terceiro Semestre (2024-2)",
-      "name": "Portal de Transparência FAPG",
-      "partner": "Fatec - Prof. Gerson Da Penha Neto",
-      "problem": "A fundação precisava de uma solução para aumentar a transparência pública sobre os projetos e pesquisas que estavam sendo realizados, facilitando o acesso à informação.",
-      "solution": "Desenvolvemos um portal e uma API que permitem a criação, edição e gestão de projetos, oferecendo uma visão clara e acessível das iniciativas da fundação.",
-      "repository": "https://github.com/joaogabgr/API-2024.2-3SEM",
-      "technologies": {
+      "categoria": "Projeto academico",
+      "semestre": "Terceiro Semestre (2024-2)",
+      "nome": "Portal de Transparência FAPG",
+      "professor_parceiro": "Fatec - Prof. Gerson Da Penha Neto",
+      "problema": "A fundação enfrentava a necessidade de uma solução para melhorar a transparência pública sobre os projetos e pesquisas em andamento, facilitando o acesso às informações.",
+      "solucao": "Desenvolvemos um portal integrado com uma API que permite a criação, edição e gestão de projetos, fornecendo uma visão clara e acessível das iniciativas da fundação.",
+      "repositorio": "https://github.com/joaogabgr/API-2024.2-3SEM",
+      "tecnologias": {
         "Spring Boot": "Desenvolvimento Backend",
         "Java": "Lógica de Backend",
         "Python": "Processamento de Dados",
@@ -17,27 +18,28 @@
         "CSS": "Estilização Web",
         "MySQL": "Gestão de Banco de Dados"
       },
-      "personal_contributions": "Atuei como desenvolvedor, implementando funcionalidades de pesquisa, integração de dados e melhorias na interface do usuário, visando facilitar a navegação e visualização dos dados no portal.",
+      "contribuicoes_pessoais": "Atuei como desenvolvedor, implementando funcionalidades na API e assegurando a integração eficiente entre backend e frontend. Também ofereci suporte técnico à equipe, auxiliando na resolução de problemas técnicos e organizacionais. Colaborei diretamente na adaptação do projeto para atender novos requisitos do cliente, mesmo enfrentando desafios como alterações em funcionalidades já finalizadas. Contribuí para reorganizar as atividades da equipe, garantindo entregas no prazo estipulado.",
       "hard_skills": {
         "Spring Boot": "Faço com ajuda",
         "React": "Faço de forma independente",
         "MySQL": "Faço de forma independente"
       },
       "soft_skills": {
-        "Organização": "Identifiquei um problema com a distribuição desigual dos grupos, o que poderia impactar o progresso do projeto. Propondo uma reorganização com a turma, conseguimos garantir que todos os grupos tivessem o mesmo número de integrantes, promovendo uma contribuição equilibrada e eficaz.",
-        "Colaboração": "Durante as reuniões de Sprint Planning, usei minhas habilidades de comunicação para ajudar a definir as prioridades do projeto e garantir que todos os membros estivessem alinhados com os objetivos e prazos.",
-        "Trabalho em Equipe": "Trabalhei de perto com a equipe para garantir uma integração eficaz entre o backend e o frontend, otimizando a comunicação e colaboração entre as áreas.",
-        "Comunicação": "Mantive uma comunicação contínua e clara com os membros da equipe, assegurando que todos estivessem atualizados sobre o andamento do projeto e focados nos mesmos objetivos."
+        "Organização": "Junto com a equipe, identificamos problemas na distribuição de tarefas após a entrada de novos integrantes. Para resolver isso, aprimoramos nossa comunicação durante as reuniões diárias (Daily), compartilhando o progresso das atividades e alinhando melhor as responsabilidades.",
+        "Resolução de Problemas": "Em colaboração com a equipe, buscamos a maneira mais eficiente de implementar os novos requisitos do cliente, mesmo que isso exigisse modificar funcionalidades já concluídas, assegurando a qualidade e a integridade do produto final.",
+        "Trabalho em Equipe": "Facilitei a integração entre backend e frontend, promovendo um ambiente colaborativo para superar desafios técnicos e organizacionais.",
+        "Comunicação": "Com os problemas de comunicação enfrentados pela equipe, aprendemos a importância de uma comunicação eficiente para o bom andamento do projeto."
       }
     },
     {
-      "semester": "Segundo Semestre (2023-2)",
-      "name": "Service Desk",
-      "partner": "Fatec - Prof. Claudio Etelvino de Lima",
-      "problem": "A falta de um sistema unificado para registrar e acompanhar solicitações de atendimento dificultava a comunicação entre os alunos e a equipe de suporte.",
-      "solution": "Desenvolvemos um sistema que centraliza o registro, acompanhamento e resolução de solicitações de atendimento, melhorando a comunicação e acelerando a resolução dos problemas.",
-      "repository": "https://github.com/joaogabgr/API-DESK",
-      "technologies": {
+      "categoria": "Projeto academico",
+      "semestre": "Segundo Semestre (2024-1)",
+      "nome": "Service Desk",
+      "professor_parceiro": "Fatec - Prof. Claudio Etelvino de Lima",
+      "problema": "A ausência de um sistema centralizado dificultava o registro e acompanhamento de solicitações, prejudicando a comunicação entre alunos e equipe de suporte.",
+      "solucao": "Criamos um sistema que centraliza o registro, acompanhamento e resolução de solicitações, melhorando a comunicação e agilizando o atendimento.",
+      "repositorio": "https://github.com/joaogabgr/API-DESK",
+      "tecnologias": {
         "TypeScript": "Desenvolvimento Backend",
         "Node.js": "Servidor Backend",
         "React": "Desenvolvimento Frontend",
@@ -45,7 +47,7 @@
         "CSS": "Estilização Web",
         "MySQL": "Gestão de Banco de Dados"
       },
-      "personal_contributions": "Fui responsável pela implementação da funcionalidade de atribuição automática de tickets, utilizando Node.js para garantir que as solicitações fossem direcionadas corretamente para a área responsável.",
+      "contribuicoes_pessoais": "Implementei funcionalidades como criação de tickets, atribuição automática e notificações de status. Também contribuí na integração dos dados para melhorar a experiência do usuário e participei ativamente na resolução de desafios técnicos, como bugs críticos e ajustes em funcionalidades. Além disso, ajudei a organizar a equipe, promovendo reuniões para discutir dificuldades e estratégias para melhorar a colaboração, o que resultou em entregas mais alinhadas e pontuais.",
       "hard_skills": {
         "Node.js": "Faço de forma independente",
         "TypeScript": "Faço de forma independente",
@@ -53,28 +55,27 @@
         "React": "Faço de forma independente"
       },
       "soft_skills": {
-        "Responsabilidade e Proatividade": "Durante a primeira Sprint, enfrentamos desafios de comunicação e proatividade. Proativamente, sugeri uma reunião para discutir as dificuldades e estabelecer um plano de ação para garantir que todos entregassem suas tarefas no prazo e com qualidade.",
-        "Resiliência": "Enfrentei desafios técnicos, como bugs críticos, e trabalhei rapidamente para solucioná-los, mantendo o foco na entrega dentro dos prazos estabelecidos.",
-        "Gestão de Tempo": "Utilizei minha capacidade de organização para dividir as tarefas em etapas menores e priorizar as mais urgentes, garantindo que a funcionalidade fosse concluída no tempo previsto.",
-        "Resolução de Problemas": "Identifiquei e resolvi problemas técnicos, como falhas na atribuição automática de tickets, garantindo o bom funcionamento do sistema."
-      },
-      "category": "Projeto Acadêmico"
+        "Proatividade": "Nas primeiras sprints, identificamos problemas de entregas e comprometimento da equipe. Junto com o Scrum Master e a Product Owner, organizei reuniões para entender as dificuldades enfrentadas e propor melhorias. Essas ações ajudaram a aumentar a produtividade e a comunicação, promovendo um melhor alinhamento entre os membros da equipe.",
+        "Resiliência": "Enfrentei e solucionei bugs críticos e desafios técnicos, mantendo a qualidade das entregas dentro dos prazos estipulados.",
+        "Gestão de Tempo": "Organizei as tarefas em etapas menores e priorizei as mais urgentes, garantindo entregas consistentes."
+      }
     },
     {
-      "semester": "Primeiro Semestre (2023-1)",
-      "name": "NEFROLOGIA PEDIÁTRICA",
-      "partner": "Fatec - Prof. Massanori",
-      "problem": "Mães de crianças com problemas renais enfrentavam dificuldades em acessar informações de suporte, pois os dados estavam dispersos e não havia uma plataforma centralizada para compartilhar experiências e informações relevantes.",
-      "solution": "Criamos um site que inclui um blog, permitindo que as mães trocassem experiências e acessassem informações unificadas sobre nefrologia pediátrica.",
-      "repository": "https://github.com/joaogabgr/API-NEFRO",
-      "technologies": {
+      "categoria": "Projeto academico",
+      "semestre": "Primeiro Semestre (2023-2)",
+      "nome": "Nefrologia Pediátrica",
+      "professor_parceiro": "Fatec - Prof. Fernando Massanori Ashikaga",
+      "problema": "Mães de crianças com problemas renais enfrentavam dificuldade para acessar informações de suporte, devido à dispersão dos dados e falta de um local centralizado para troca de experiências.",
+      "solucao": "Desenvolvemos um site com um blog integrado, permitindo que as mães compartilhassem experiências e acessassem informações unificadas sobre nefrologia pediátrica.",
+      "repositorio": "https://github.com/joaogabgr/API-NEFRO",
+      "tecnologias": {
         "Flask": "Desenvolvimento Backend",
         "Python": "Lógica de Backend",
         "HTML": "Estrutura Web",
         "CSS": "Estilização Web",
         "MySQL": "Gestão de Banco de Dados"
       },
-      "personal_contributions": "Fui responsável pela coleta de dados, criação e organização do banco de dados e desenvolvimento do blog, proporcionando um ambiente seguro e acessível para as mães interagirem e compartilharem experiências.",
+      "contribuicoes_pessoais": "Implementei o blog do site, utilizando Flask e integrando-o ao banco de dados. Fui responsável pela coleta e organização inicial dos dados, assegurando que o sistema atendesse às necessidades do público-alvo. Além disso, promovi uma abordagem colaborativa, incentivando a equipe a superar desafios técnicos por meio de aprendizado mútuo.",
       "hard_skills": {
         "Flask Framework": "Faço de forma independente",
         "Python": "Faço de forma independente",
@@ -82,17 +83,16 @@
         "HTML": "Faço de forma independente"
       },
       "soft_skills": {
-        "Organização": "Estruturei o banco de dados de forma eficaz, garantindo que as informações estivessem centralizadas e facilmente acessíveis para as mães.",
-        "Empatia": "Busquei sempre entender as necessidades do público-alvo, criando um ambiente acolhedor no blog, onde as mães se sentissem à vontade para compartilhar suas histórias e desafios.",
-        "Trabalho em Equipe": "Colaborei com a equipe para garantir que o site fosse bem estruturado e intuitivo, facilitando o acesso à informação e promovendo a troca de experiências entre as mães."
-      },
-      "category": "Projeto Acadêmico"
+        "Empatia": "Aprofundei-me nas necessidades das mães, criando um ambiente funcional e acolhedor no site.",
+        "Trabalho em Equipe": "Liderei a equipe na superação de dificuldades técnicas, promovendo colaboração e aprendizado mútuo."
+      }
     },
     {
-      "name": "OrbitChat",
-      "description": "Uma plataforma de mídia social inspirada no Twitter, onde os usuários podem criar postagens, seguir outros usuários, curtir postagens e repostar conteúdo, oferecendo uma experiência dinâmica e interativa.",
-      "repository": "https://github.com/joaogabgr/OrbitChat",
-      "technologies": {
+      "categoria": "Projeto pessoal",
+      "nome": "OrbitChat",
+      "descrição": "Uma plataforma de mídia social inspirada no Twitter, onde os usuários podem criar postagens, seguir outros usuários, curtir postagens e compartilhar conteúdo, oferecendo uma experiência dinâmica e interativa.",
+      "repositorio": "https://github.com/joaogabgr/OrbitChat",
+      "tecnologias": {
         "Python": "Desenvolvimento Backend",
         "Flask": "Framework Backend",
         "HTML": "Estrutura Web",
@@ -100,19 +100,13 @@
         "JavaScript": "Script Frontend",
         "MySQL": "Gestão de Banco de Dados"
       },
-      "personal_contributions": "Fui responsável pelo desenvolvimento do sistema de postagens, funcionalidades de seguir e curtir, e pela implementação do backend com Flask, garantindo uma interação fluida entre os usuários.",
+      "contribuicoes_pessoais": "Desenvolvi o sistema de postagens, funcionalidades de seguir e curtir usuários, e implementei o backend com Flask, garantindo uma interação fluida entre os usuários.",
       "hard_skills": {
         "Flask Framework": "Faço de forma independente",
         "Desenvolvimento Frontend": "Faço de forma independente",
         "Design de Banco de Dados": "Faço de forma independente",
         "Sistemas de Mídia Social": "Faço com ajuda"
-      },
-      "soft_skills": {
-        "Criatividade": "Implementei funcionalidades inovadoras para tornar a experiência do usuário mais dinâmica e interativa, com foco em engajamento.",
-        "Design de Experiência do Usuário": "Foquei no design de uma interface simples e intuitiva, garantindo uma navegação agradável e eficiente para os usuários.",
-        "Resolução de Problemas": "Resolvi desafios técnicos relacionados à interação dinâmica dos usuários, garantindo o bom desempenho do sistema."
-      },
-      "category": "Projeto Pessoal"
+      }
     }
   ]
 }

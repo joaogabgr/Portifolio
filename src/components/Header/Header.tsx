@@ -4,19 +4,19 @@ export default function Header() {
     <header>
         <div className="section">
             <div className="welcome">
-                <h1>Welcome to my portfolio!</h1>
-                <p>My name is João Gabriel, I am 20 years old, and I am a Software Development student at Fatec in São José dos Campos, Brazil. I am currently in my 3rd semester.</p>
+                <h1>Bem-vindo ao meu portfólio!</h1>
+                <p>Meu nome é João Gabriel, tenho 20 anos e sou estudante de Desenvolvimento de Software na Fatec em São José dos Campos, Brasil. Atualmente, estou no meu 3º semestre.</p>
             </div>
             <div className="img">
-            <img src="./static/img/User.png" alt="Foto do usuario" />
+            <img src="./static/img/User.png" alt="Foto do usuário" />
             </div>
         </div>
         <nav>
-            <a href="/#">Home</a>
-            <a href="/#about">About</a>
-            <a href="/#contact">Contact</a>
-            <a href="/projects">Projects</a>
-            <a href="/studies">Studies</a>
+            <a href="/#">Início</a>
+            <a href="/#about">Sobre</a>
+            <a href="/#contact">Contato</a>
+            <a href="/projects">Projetos</a>
+            <a href="/studies">Estudos</a>
         </nav>
     </header>
   );

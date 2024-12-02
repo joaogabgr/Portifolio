@@ -1,15 +1,14 @@
 export type ProjectType = {
-    semester?: string;
-    name: string;
-    partner?: string;
-    problem?: string;
-    solution?: string;
-    repository: string;
-    technologies: { [key: string]: string | string[] | undefined };
-    personal_contributions?: string;
+    semestre?: string;
+    nome: string;
+    professor_parceiro?: string;
+    problema?: string;
+    solucao?: string;
+    repositorio: string;
+    tecnologias: { [key: string]: string | string[] | undefined };
+    contribuicoes_pessoais?: string;
     hard_skills: { [key: string]: string | string[] | undefined };
-    soft_skills: { [key: string]: string | string[] | undefined };
-    description?: string;
-    category?: string;
+    soft_skills?: { [key: string]: string | string[] | undefined };
+    categoria?: string;
   };
   

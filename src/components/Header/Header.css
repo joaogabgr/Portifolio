@@ -98,6 +98,7 @@ header div.welcome p {
     header nav {
         width: 100%;
         justify-content: center;
+        flex-wrap: wrap;
     }
 }
 

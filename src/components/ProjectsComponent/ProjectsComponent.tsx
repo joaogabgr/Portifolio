@@ -6,55 +6,63 @@ import { getIcon } from "./getIcon";
 import { ProjectType } from "../../types/ProjectsType";
 
 export default function ProjectsComponent() {
-  const projects: ProjectType[] = projectsData.projects;
+  const projects: ProjectType[] = projectsData.projetos;
 
   return (
     <section id="projects">
-      <h2>Projects</h2>
+      <h2>Projetos</h2>
       {projects.map((project, index) => (
         <div key={index} className="project">
-          <h3>{project.name}</h3>
+          <h3>{project.nome}</h3>
 
-          {project.semester && (
+          {project.categoria && (
             <>
               <p>
-                <strong>Semester:</strong> {project.semester}
+                <strong>{project.categoria}</strong>
               </p>
             </>
           )}
 
-          {project.partner && (
+          {project.semestre && (
             <>
               <p>
-                <strong>Partner:</strong> {project.partner}
+                <strong>Semestre:</strong> {project.semestre}
               </p>
             </>
           )}
 
-          {project.problem && (
+          {project.professor_parceiro && (
             <>
               <p>
-                <strong>Problem:</strong> {project.problem}
+                <strong>Professor Parceiro:</strong> {project.professor_parceiro}
               </p>
             </>
           )}
 
-          {project.solution && (
+          {project.problema && (
             <>
               <p>
-                <strong>Solution:</strong> {project.solution}
+                <strong>Problema:</strong> {project.problema}
               </p>
             </>
           )}
 
-          {project.technologies &&
-            Object.keys(project.technologies).length > 0 && (
+          {project.solucao && (
+            <>
+              <p>
+                <strong>Solução:</strong> {project.solucao}
+              </p>
+            </>
+          )}
+
+          {project.tecnologias &&
+            Object.keys(project.tecnologias).length > 0 && (
               <>
                 <p>
-                  <strong>Technologies:</strong>
+                  <strong>Tecnologias:</strong>
                 </p>
                 <p className="techMain">
-                  {Object.keys(project.technologies).map((tech, i) => (
+                  {Object.keys(project.tecnologias).map((tech, i) => (
                     <span key={i} title={tech}>
                       {getIcon(tech)}
                     </span>
@@ -63,11 +71,10 @@ export default function ProjectsComponent() {
               </>
             )}
 
-          {project.personal_contributions && (
+          {project.contribuicoes_pessoais && (
             <>
               <p>
-                <strong>Personal Contributions:</strong>{" "}
-                {project.personal_contributions}
+                <strong>Contribuições Pessoais:</strong> {project.contribuicoes_pessoais}
               </p>
             </>
           )}
@@ -81,10 +88,10 @@ export default function ProjectsComponent() {
                 <p>
                   {Object.keys(project.hard_skills).map((skill, i) => (
                     <>
-                    <span className="subTitle">{skill}</span>
-                    <span key={i} title={skill}>
-                      {project.hard_skills[skill]}
-                    </span>
+                      <span className="subTitle">{skill}</span>
+                      <span key={i} title={skill}>
+                        {project.hard_skills[skill]}
+                      </span>
                     </>
                   ))}
                 </p>
@@ -100,31 +107,23 @@ export default function ProjectsComponent() {
                 <p>
                   {Object.keys(project.soft_skills).map((skill, i) => (
                     <>
-                    <span className="subTitle">{skill}</span>
-                    <span key={i}>
-                      {project.soft_skills[skill]}
-                    </span>
+                      <span className="subTitle">{skill}</span>
+                      <span key={i}>
+                        {project.soft_skills && project.soft_skills[skill]}
+                      </span>
                     </>
                   ))}
                 </p>
               </>
             )}
 
-          {project.category && (
-            <>
-              <p>
-                <strong>{project.category}</strong>
-              </p>
-            </>
-          )}
-
-          {project.repository && (
+          {project.repositorio && (
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href={project.repository}
+              href={project.repositorio}
             >
-              View Project <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+              Ver Projeto <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
             </a>
           )}
         </div>
