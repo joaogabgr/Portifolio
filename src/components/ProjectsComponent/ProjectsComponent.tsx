@@ -31,14 +31,6 @@ export default function ProjectsComponent() {
             </>
           )}
 
-          {project.professor_parceiro && (
-            <>
-              <p>
-                <strong>Professor Parceiro:</strong> {project.professor_parceiro}
-              </p>
-            </>
-          )}
-
           {project.problema && (
             <>
               <p>

@@ -25,10 +25,9 @@
         "MySQL": "Faço de forma independente"
       },
       "soft_skills": {
-        "Organização": "Junto com a equipe, identificamos problemas na distribuição de tarefas após a entrada de novos integrantes. Para resolver isso, aprimoramos nossa comunicação durante as reuniões diárias (Daily), compartilhando o progresso das atividades e alinhando melhor as responsabilidades.",
-        "Resolução de Problemas": "Em colaboração com a equipe, buscamos a maneira mais eficiente de implementar os novos requisitos do cliente, mesmo que isso exigisse modificar funcionalidades já concluídas, assegurando a qualidade e a integridade do produto final.",
-        "Trabalho em Equipe": "Facilitei a integração entre backend e frontend, promovendo um ambiente colaborativo para superar desafios técnicos e organizacionais.",
-        "Comunicação": "Com os problemas de comunicação enfrentados pela equipe, aprendemos a importância de uma comunicação eficiente para o bom andamento do projeto."
+        "Organização": "Diante dos desafios causados pela entrada de novos membros na equipe, tive que me reorganizar para garantir que as tarefas fossem entregues no prazo e com qualidade. Esse processo me ajudou a melhorar minha habilidade de organização e gestão de tempo, permitindo uma entrega mais eficiente e pontual.",
+        "Resolução de Problemas": "Durante a última sprint, enfrentamos problemas técnicos no backend, onde precisei colaborar com outro membro da equipe para resolver uma tarefa que já estava marcada como finalizada. Esse desafio me ajudou a desenvolver habilidades de resolução de problemas e a trabalhar de forma colaborativa para entregar soluções eficientes.",
+        "Comunicação": "Aprendi a importância de uma comunicação clara e eficiente dentro da equipe, especialmente após enfrentarmos dificuldades de alinhamento nas fases iniciais. Trabalhei para melhorar a comunicação, o que foi essencial para o bom andamento do projeto."
       }
     },
     {
@@ -47,7 +46,7 @@
         "CSS": "Estilização Web",
         "MySQL": "Gestão de Banco de Dados"
       },
-      "contribuicoes_pessoais": "Implementei funcionalidades como criação de tickets, atribuição automática e notificações de status. Também contribuí na integração dos dados para melhorar a experiência do usuário e participei ativamente na resolução de desafios técnicos, como bugs críticos e ajustes em funcionalidades. Além disso, ajudei a organizar a equipe, promovendo reuniões para discutir dificuldades e estratégias para melhorar a colaboração, o que resultou em entregas mais alinhadas e pontuais.",
+      "contribuicoes_pessoais": "Implementei funcionalidades como criação de tickets, atribuição automática e notificações de status. Também contribui na integração dos dados para melhorar a experiência do usuário e participei ativamente na resolução de desafios técnicos, como bugs críticos e ajustes em funcionalidades. Além disso, ajudei a organizar a equipe, promovendo reuniões para discutir dificuldades e estratégias para melhorar a colaboração, o que resultou em entregas mais alinhadas e pontuais.",
       "hard_skills": {
         "Node.js": "Faço de forma independente",
         "TypeScript": "Faço de forma independente",
@@ -55,9 +54,9 @@
         "React": "Faço de forma independente"
       },
       "soft_skills": {
-        "Proatividade": "Nas primeiras sprints, identificamos problemas de entregas e comprometimento da equipe. Junto com o Scrum Master e a Product Owner, organizei reuniões para entender as dificuldades enfrentadas e propor melhorias. Essas ações ajudaram a aumentar a produtividade e a comunicação, promovendo um melhor alinhamento entre os membros da equipe.",
-        "Resiliência": "Enfrentei e solucionei bugs críticos e desafios técnicos, mantendo a qualidade das entregas dentro dos prazos estipulados.",
-        "Gestão de Tempo": "Organizei as tarefas em etapas menores e priorizei as mais urgentes, garantindo entregas consistentes."
+        "Proatividade": "Nas duas primeiras entregas do projeto, percebi que a equipe enfrentava dificuldades com a falta de proatividade, o que comprometia o andamento das tarefas. Com base nas lições aprendidas com meus próprios erros, tomei a iniciativa de organizar reuniões regulares para garantir um melhor alinhamento entre os membros. Isso ajudou a evitar imprevistos e entregas de última hora. No meu caso, ao ter que trabalhar intensamente no último fim de semana para concluir minhas atividades, aprendi a importância de agir antecipadamente",
+        "Resiliência": "Enfrentei e solucionei bugs críticos durante o desenvolvimento, mantendo o foco na qualidade das entregas e nos prazos estipulados. Essa experiência me ajudou a fortalecer minha capacidade de resiliência diante de desafios técnicos complexos.",
+        "Gestão de Tempo": "Aprendi a organizar as tarefas em etapas menores e priorizar as mais urgentes, o que me ajudou a garantir entregas consistentes e dentro do prazo. Essa abordagem foi essencial para manter o fluxo de trabalho produtivo."
       }
     },
     {
@@ -83,8 +82,8 @@
         "HTML": "Faço de forma independente"
       },
       "soft_skills": {
-        "Empatia": "Aprofundei-me nas necessidades das mães, criando um ambiente funcional e acolhedor no site.",
-        "Trabalho em Equipe": "Liderei a equipe na superação de dificuldades técnicas, promovendo colaboração e aprendizado mútuo."
+        "Empatia": "Eu realmente me aprofundei nas necessidades das mães e fiz questão de criar um ambiente funcional e acolhedor no site. Isso me permitiu entender melhor o impacto de um projeto bem feito na vida de outras pessoas.",
+        "Trabalho em Equipe": "Liderei a equipe na superação de dificuldades técnicas e sempre procurei incentivar a colaboração entre os membros. Essa abordagem ajudou todos a aprenderem juntos, contribuindo para o sucesso do projeto."
       }
     },
     {
